@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // If you're using incremental builds with project references
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+
+    // Possibly override module resolution if you want bundler mode here
+    "moduleResolution": "Bundler",
+
+    // Keep noEmit for Node config files
+    "noEmit": true
+  },
+  "include": ["vite.config.ts", "vitest.config.ts", "*.config.*"],
+  "exclude": ["node_modules", "dist"]
+}

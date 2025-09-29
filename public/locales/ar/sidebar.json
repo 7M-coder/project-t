@@ -1,0 +1,28 @@
+{
+  "ar": {
+    "home": "الرئيسية",
+    "subnavs": [
+      {
+        "key": "window1",
+        "label": "نافذة1",
+        "options": [
+          { "key": "1", "label": "المستخدمين", "route": "users" },
+          { "key": "2", "label": "خيار٢", "route": "sessions" },
+          { "key": "3", "label": "خيار٣", "route": "forum" },
+          { "key": "4", "label": "خيار٤", "route": "exercises" },
+          { "key": "5", "label": "خيار٥", "route": "my-programs" }
+        ]
+      },
+      {
+        "key": "myInfo",
+        "label": "بياناتي",
+        "options": [
+          { "key": "6", "label": "تحديث معلوماتي الشخصية", "route": "update-personal-information" },
+          { "key": "7", "label": "تحديث كلمة المرور", "route": "change-password" },
+          { "key": "8", "label": "خيار٣", "route": "activity-log" },
+          { "key": "9", "label": "خيار٤", "route": "support" }
+        ]
+      }
+    ]
+  }
+}

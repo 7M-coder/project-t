@@ -1,0 +1,19 @@
+{
+  "greeting": "Hello",
+  "networkError": "A network error occurred. Please try again later.",
+  "update": "Update",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "yes": "Yes",
+  "no": "No",
+  "close": "Close",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "create": "Create",
+  "search": "Search",
+  "filter": "Filter",
+  "sort": "Sort",
+  "ascending": "Ascending",
+  "descending": "Descending"
+}

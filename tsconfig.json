@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    // Target modern JavaScript features
+    "target": "ESNext",
+    "module": "ESNext",
+    // Enables React JSX
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true, //
+    "noUnusedParameters": true, //
+    "noFallthroughCasesInSwitch": true, //
+    "forceConsistentCasingInFileNames": true,
+
+    // Module resolution
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "isolatedModules": true, //
+
+    // Path aliases
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@core/*": ["src/modules/core/*"],
+      "@auth/*": ["src/modules/auth/*"],
+      "@programs/*": ["src/modules/programs/*"],
+      "@tests/*": ["src/tests/*"]
+    },
+    "outDir": "dist",
+    "typeRoots": ["./node_modules/@types", "./src/core/types"]
+  },
+  // Do not include anything here; extends will handle it.
+  "exclude": ["node_modules", "dist"]
+}

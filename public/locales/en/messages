@@ -1,0 +1,14 @@
+{
+  "name_min": "Name must be at least 3 characters",
+  "name_max": "Name cannot be larger than 15 characters",
+  "name_letters": "Name can only contain letters",
+  "phone_length": "Phone must be exactly 9 digits",
+  "phone_numbers": "Phone can only contain numbers",
+  "phone_no_letters_special": "Phone cannot have letters or special characters",
+  "phone_requiredWithCode": "Phone is required when country code is provided",
+  "country_code_min": "Country code must be at least 3 digits",
+  "country_code_max": "Country code cannot be larger than 5 digits",
+  "country_code_numbers": "Country code can only contain numbers",
+  "country_code_no_letters_special": "Country code cannot have special characters or letters",
+  "country_code_requiredWithPhone": "Country code is required when phone is provided"
+}

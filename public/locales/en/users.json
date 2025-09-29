@@ -1,0 +1,31 @@
+{
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "country_code": "Country Code",
+    "phone": "Phone",
+    "role": "Role",
+    "created_at": "Created At",
+    "updated_at": "Updated At",
+    "is_blocked": "Blocked",
+    "phone_verified": "Phone Verified",
+    "yes": "Yes",
+    "no": "No",
+    "users": "Users",
+    "actions": "Actions",
+    "edit": "Edit"
+  },
+  "modal": {
+    "edit_user": "Edit User Info",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "change_user_info": {
+    "title": "Update My Personal Information"
+  },
+  "info": {
+    "phone": "Phone",
+    "country_code": "Country Code",
+    "name": "Name"
+  }
+}

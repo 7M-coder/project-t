@@ -1,0 +1,18 @@
+/* For Ant Design component */
+.ant-btn {
+  padding: 1.2rem;
+  box-shadow: none;
+}
+.ant-input:focus {
+  box-shadow: none;
+}
+.ant-input:focus-within {
+  box-shadow: none;
+}
+.ant-input-password:focus-within,
+.ant-input-password:focus {
+  box-shadow: none;
+}
+.ant-layout-header {
+  width: 100%;
+}

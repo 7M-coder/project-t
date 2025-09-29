@@ -1,0 +1,20 @@
+{
+  "noPrograms": "No programs available.",
+  "noJoinedPrograms": "You have not joined any program yet.",
+
+  "loadingProgramDetails": "Loading program details...",
+  "programNotFound": "Program not found.",
+  "videoLabel": "(Video)",
+  "exerciseLabel": "(Exercise)",
+  "videoNotSupported": "Your browser does not support the video tag.",
+  "captions": "captions",
+
+  "loadingPrograms": "Loading programs...",
+  "errorFetchingPrograms": "Error fetching programs:",
+
+  "programJoinSuccess": "Successfully joined the program!",
+  "programJoinError": "Failed to join the program. Please try again.",
+  "alreadyJoined": "You have joined this program",
+  "joinProgram": "Join This Program",
+  "errorProgramDetails": "Error loading program details. Please try again later."
+}

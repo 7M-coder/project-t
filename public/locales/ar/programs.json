@@ -1,0 +1,20 @@
+{
+  "noPrograms": "لا توجد برامج متاحة.",
+  "noJoinedPrograms": "لم تنضم إلى أي برنامج بعد.",
+
+  "loadingProgramDetails": "جاري تحميل تفاصيل البرنامج...",
+  "programNotFound": "البرنامج غير موجود.",
+  "videoLabel": "(فيديو)",
+  "exerciseLabel": "(تمرين)",
+  "videoNotSupported": "متصفحك لا يدعم وسم الفيديو.",
+  "captions": "ترجمات",
+
+  "loadingPrograms": "جاري تحميل البرامج...",
+  "errorFetchingPrograms": "حدث خطأ أثناء جلب البرامج:",
+
+  "programJoinSuccess": "تم الانضمام إلى البرنامج بنجاح!",
+  "programJoinError": "فشل الانضمام إلى البرنامج. يرجى المحاولة مرة أخرى.",
+  "alreadyJoined": "لقد انضممت إلى هذا البرنامج",
+  "joinProgram": "انضم إلى هذا البرنامج",
+  "errorProgramDetails": "حدث خطأ أثناء تحميل تفاصيل البرنامج. يرجى المحاولة مرة أخرى لاحقاً."
+}

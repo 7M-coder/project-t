@@ -1,0 +1,28 @@
+{
+  "en": {
+    "home": "Home",
+    "subnavs": [
+      {
+        "key": "window1",
+        "label": "window1",
+        "options": [
+          { "key": "1", "label": "Users", "route": "users" },
+          { "key": "2", "label": "option2", "route": "sessions" },
+          { "key": "3", "label": "option3", "route": "forum" },
+          { "key": "4", "label": "option4", "route": "exercises" },
+          { "key": "5", "label": "option5", "route": "my-programs" }
+        ]
+      },
+      {
+        "key": "myInfo",
+        "label": "My Info",
+        "options": [
+          { "key": "6", "label": "Update Personal Information", "route": "update-personal-information" },
+          { "key": "7", "label": "Change Password", "route": "change-password" },
+          { "key": "8", "label": "option3", "route": "activity-log" },
+          { "key": "9", "label": "option4", "route": "support" }
+        ]
+      }
+    ]
+  }
+}

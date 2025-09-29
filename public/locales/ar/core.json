@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "aboutUs": "من نحن",
+    "successStories": "قصص النجاح",
+    "programs": "البرامج",
+    "news": "الأخبار",
+    "contactUs": "اتصل بنا",
+    "login": "تسجيل الدخول",
+    "register": "تسجيل حساب جديد"
+  },
+  "footer": {
+    "aboutUs": "من نحن",
+    "successStories": "قصص النجاح",
+    "programs": "البرامج",
+    "news": "الأخبار",
+    "contactUs": "اتصل بنا",
+    "login": "تسجيل الدخول",
+    "register": "تسجيل حساب جديد",
+    "address": "الشرائع - الخضراء - مكة المكرمة",
+    "getApp": "احصل على التطبيق",
+    "copyrightText": "جميع الحقوق محفوظة لموقع عفة",
+    "socialMedia": "كن قريبا",
+    "quickLinks": "روابط سريعة",
+    "contactInfo": "معلومات الاتصال",
+    "socialMediaApps": {
+      "youtube": "يوتيوب",
+      "twitter": "تويتر",
+      "instagram": "انستقرام",
+      "facebook": "فيسيبوك"
+    }
+  },
+  "buttons": {
+    "download": "تحميل التطبيق"
+  }
+}

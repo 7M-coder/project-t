@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "aboutUs": "About Us",
+    "successStories": "Success Stories",
+    "programs": "Programs",
+    "news": "News",
+    "contactUs": "Contact Us",
+    "login": "Login",
+    "register": "Register"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "successStories": "Success Stories",
+    "programs": "Programs",
+    "news": "News",
+    "contactUs": "Contact Us",
+    "login": "Login",
+    "register": "Register",
+    "address": "Al-Sharai - Al-Khadraa - Makkah",
+    "getApp": "Get the App",
+    "copyrightText": "All rights reserved for safe algorithm",
+    "socialMedia": "Stay close",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "socialMediaApps": {
+      "youtube": "Youtube",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    }
+  },
+  "buttons": {
+    "download": "Download App"
+  }
+}

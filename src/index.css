@@ -1,0 +1,64 @@
+@layer theme, base, antd, components, utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+/*
+  tailwindcss theme config
+  example: <h1 className="text-accent">Test</h1>
+*/
+:root {
+  --color-primary: #2563eb !important;
+  --color-secondary: #64748b !important;
+  --color-background: #f9fafb !important;
+  --color-surface: #ffffff;
+  --color-border: #d1d5db !important;
+  --color-accent: #f59e42 !important;
+  --color-success: #22c55e !important;
+  --color-error: #ef4444 !important;
+
+  --font-theme: "Tajawal", "sans-serif";
+}
+@theme {
+  --color-primary: var(--color-primary) !important;
+  --color-secondary: var(--color-secondary) !important;
+  --color-background: var(--color-background) !important;
+  --color-surface: var(--color-surface) !important;
+  --color-border: var(--color-border) !important;
+  --color-accent: var(--color-accent) !important;
+  --color-success: var(--color-success) !important;
+  --color-error: var(--color-error) !important;
+
+  --font-theme: var(--font-theme) !important;
+}
+.dark {
+  --color-primary: #60a5fa !important;
+  --color-secondary: #94a3b8 !important;
+  --color-background: #1e293b !important;
+  --color-surface: #273043 !important;
+  --color-border: #334155 !important;
+  --color-accent: #f59e42 !important;
+  --color-success: #22c55e !important;
+  --color-error: #ef4444 !important;
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+body {
+  background-color: var(--color-surface);
+  font-family: var(--font-theme);
+}

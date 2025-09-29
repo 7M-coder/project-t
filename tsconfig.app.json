@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // If you're using project references and incremental builds
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    // Optionally override or add extra config
+    "useDefineForClassFields": true,
+    "moduleResolution": "Bundler",
+
+    // Require imports to import something, disallowing side-effect-only imports.
+    "noUncheckedSideEffectImports": true,
+
+    // Typically for a React app, do not emit from TS alone,
+    // since Vite handles bundling. This is optional:
+    "noEmit": true,
+
+    // Include Vitest global type definitions for tests
+    "types": ["vitest/globals"]
+  },
+  "include": [
+    "src",
+    "src/tests/setup.ts",
+    "vitest.config.ts" // Include vitest.config.ts here
+  ],
+  "exclude": ["node_modules", "dist"]
+}
